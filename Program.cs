@@ -15,17 +15,16 @@ void Palindrom()
         int fourth_num = user_num / 10 % 10;
         int fifth_num = user_num % 10;
 
-        else if(first_num == fifth_num $$ second_num == fourth_num)
-
+        if(first_num == fifth_num && second_num == fourth_num)
+        {
             Console.WriteLine("Your number is Palindrome!");
-            
+        }
         else
             Console.WriteLine("Your number is not Palindrome!");
     }
     else Console.WriteLine("You entered not 5-digit number!");
 }
-
-
+Palindrom();
 
 
 
